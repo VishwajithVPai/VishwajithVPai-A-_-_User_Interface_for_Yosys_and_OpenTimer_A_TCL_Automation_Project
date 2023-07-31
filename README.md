@@ -85,7 +85,11 @@ The WNS was found out to be 222.093ns , but the critical path could not be found
 
 ![image](https://github.com/VishwajithVPai/VishwajithVPai-A-_-Graphical_User_Interface_for_Yosys_and_OpenTimer_A_TCL_Automation_Project/assets/130815256/1540c28d-0e4c-45e5-a4ae-d0c1d33621e7)
 
-## Tools used in the project
+# Tools used in the project :
+# Yosys 
+https://github.com/YosysHQ/yosys.com
+# OpenTimer
+https://github.com/OpenTimer/OpenTimer.com
 
 
 
