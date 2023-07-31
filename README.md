@@ -12,9 +12,9 @@ TCL, in general, plays an important role in streamlining the design processes an
 
 # Overview of the Project 
 * Input file is .csv file that contains the following details namely Design name, paths for the library, netlist used, and output generated.
-Converted constraints file into sdc format file differentiating bit and a bus by "*".
-Created .ys file and passed it to the Yosys tool and generated the synthesis.v file
-Processed the synthesis.v file and generated synthesis.final.v file
-Converted sdc format file into the corresponding .timing file
-Created .config file and passed it to the OpenTimer tool and generated .results file
-Extracted the desired contents from the .results file
+* Converted constraints file into sdc format file differentiating bit and a bus by "*".
+* Created .ys file and passed it to the Yosys tool and generated the synthesis.v file
+* Processed the synthesis.v file and generated synthesis.final.v file
+* Converted sdc format file into the corresponding .timing file
+* Created .config file and passed it to the OpenTimer tool and generated .results file
+* Extracted the desired contents from the .results file
