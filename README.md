@@ -30,7 +30,8 @@ This code is given in the folder Code and can be referred.
 
 # Shell Outputs
 ![image](https://github.com/VishwajithVPai/VishwajithVPai-A-_-Graphical_User_Interface_for_Yosys_and_OpenTimer_A_TCL_Automation_Project/assets/130815256/de526a6b-0333-47ea-9e76-3b115cbe015e)
-                                                When No input .csv file is given
+                                               
+\t\t\tWhen No input .csv file is given
 
 
 
