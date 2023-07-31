@@ -1,0 +1,74 @@
+#!/bin/tcsh -f 
+echo
+echo
+echo "\t\t\t******************" 
+echo "\t\t\t****************"
+echo "\t\t\t****       ****          *" 
+echo "\t\t\t****      *****         ***"
+echo "\t\t\t****     *****         *****" 
+echo "\t\t\t****    *****           ***"
+echo "\t\t\t****   ******            *" 
+echo "\t\t\t***** *******             "
+echo "\t\t\t*************           *** "    
+echo "\t\t\t****                    ***"
+echo "\t\t\t****                    ***"
+echo "\t\t\t****                    ***"
+echo "\t\t\t****                   *****"
+echo "\t\t\t****                  *******"
+echo "        PiSYNTH is a unique User Interface (UI) that will take RTL netlist and SDC constraints as a input, and will generate        "
+echo "            synthesized netlist & pre-layout timing report as an output. It uses Yosys open-source tool for synthesis               "
+echo "                                      and OpenTimer to generate pre-layout timing reports.                                          "
+echo 
+echo 
+echo "                This project is done as per the course VSD - TCL Programming from Novice to Expert                                  "
+echo "                                     This project is done by Vishwajith V Pai                                                       "
+echo "************************************************************************************************************************************"
+echo
+echo 
+echo
+
+sleep 5
+set my_work_dir = 'pwd'
+
+#-----Tool initialization-----#
+
+#Not provide .csv file as input# 
+if ($#argv != 1) then
+	echo "INFO : Please Provide The CSV File"
+	echo "Exiting Tool..."
+	exit 1
+endif 
+
+
+#Provide a .csv file,which does not exist#
+if (! -f $argv[1] || $argv[1] == "-help") then
+	if ($argv[1] != "-help") then
+		echo "ERROR : Cannot find CSV file $argv[1]."
+		echo "Exiting Tool..."
+		exit 1
+	#Type "-help" to find out usage#
+	else
+		echo "USAGE : ./pisynth <csv file>"
+		echo "where <csv file> consists of 2 columns, below keyword beiing in the first column and is Case Sensitive."
+		echo "<Design Name> is the name of the top level module"
+		echo "<Output Directory> is the name of the output directory where you want to dump the synthesis script, synthesized netlist and timing reports"
+		echo "<Netlist Directory> is the name of the directory where all RTL netlist are present"
+		echo "<Early Library Path> is the file path of the early cell library to be used for STA"
+		echo "<Late Library Path> is the file path of the late cell library to be used for STA"
+		echo "<Constraints file> is csv file path of constraints to be used for STA"
+		echo "Exiting tool..."
+		exit 1
+	endif
+else 
+	tclsh pisynth.tcl $argv[1] 
+endif
+
+
+ 
+
+
+
+
+
+
+
