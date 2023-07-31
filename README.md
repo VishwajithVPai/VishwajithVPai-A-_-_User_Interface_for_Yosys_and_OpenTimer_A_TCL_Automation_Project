@@ -22,3 +22,12 @@ TCL, in general, plays an important role in streamlining the design processes an
 # Shell Code
 This code is given in the folder Code and can be referred.
 ![image](https://github.com/VishwajithVPai/VishwajithVPai-A-_-Graphical_User_Interface_for_Yosys_and_OpenTimer_A_TCL_Automation_Project/assets/130815256/39d25ec2-8759-46a5-9802-f0885631d877)
+
+# TCL Code 
+This code is given in the folder Code and can be referred.
+![image](https://github.com/VishwajithVPai/VishwajithVPai-A-_-Graphical_User_Interface_for_Yosys_and_OpenTimer_A_TCL_Automation_Project/assets/130815256/d23f76a7-6e6b-4745-a4b4-d4dfe955193b)
+![image](https://github.com/VishwajithVPai/VishwajithVPai-A-_-Graphical_User_Interface_for_Yosys_and_OpenTimer_A_TCL_Automation_Project/assets/130815256/8bef1668-3842-4851-bae6-c7e1903b3d59)
+
+
+
+
