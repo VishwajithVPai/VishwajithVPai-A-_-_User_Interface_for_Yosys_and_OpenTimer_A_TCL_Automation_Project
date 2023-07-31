@@ -91,6 +91,11 @@ https://github.com/YosysHQ/yosys.com
 # OpenTimer
 https://github.com/OpenTimer/OpenTimer.com
 
+# How to use ?
+* Replace the file addresses in the designdetails csv file.
+* Write the constraints in the format as given in the constraints csv file.
+* for help use ./pisynth -help
+* use ./pisynth <csv_file> for executing the tool
 
 
 
