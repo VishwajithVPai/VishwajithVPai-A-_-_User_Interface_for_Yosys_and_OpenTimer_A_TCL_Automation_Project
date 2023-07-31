@@ -1,0 +1,4 @@
+TCL (Tool Command Language) is widely used in the VLSI sector for scripting and automation in electronic design automation (EDA) operations.
+It's utilised to automate operations including design setup, simulation, synthesis, timing analysis, and verification. 
+TCL is also used to set design restrictions, integrate several EDA tools, create test benches, test chips, and customise and enhance tool functionality.
+TCL, in general, plays an important role in streamlining the design processes and increasing productivity in the VLSI sector.
