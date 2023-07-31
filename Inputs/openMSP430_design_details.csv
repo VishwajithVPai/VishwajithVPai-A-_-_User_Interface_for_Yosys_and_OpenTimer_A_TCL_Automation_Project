@@ -1,0 +1,6 @@
+Design Name,openMSP430
+Output Directory,/home/vpai/tcl_project/Output
+Netlist Directory,/home/vpai/tcl_project/source
+Early Library Path,/home/vpai/tcl_project/osu018_stdcells.lib
+Late Library Path,/home/vpai/tcl_project/osu018_stdcells.lib
+Constraints File,/home/vpai/tcl_project/openMSP430_design_constraints.csv
